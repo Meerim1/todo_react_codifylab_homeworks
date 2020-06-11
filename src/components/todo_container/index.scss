@@ -1,0 +1,56 @@
+.todo_container{
+  width: 550px;
+  margin: 0 auto;
+  border: 1px solid #576675;  
+  margin-top: 150px;
+}
+
+.todo_input{
+  padding: 15px;
+  box-shadow: 0 0 2px #576675;
+  border-style: none;
+  width: 80%;
+  outline: none;
+  font-size: 16px;
+}
+
+.todo_add_btn{
+  width: 20%;
+  padding: 15px 0;
+  background-color: #026957;
+  border: 1px solid #026957;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer_buttons_wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0;
+}
+
+.footer_button{
+  border: none;
+  color: #696969;
+  background-color: white;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear_button_wrapper{
+  min-width: 120px;
+}
+
+.active{
+  border: 2px solid #c9cdd3;
+  border-radius: 5px;
+}
+
+.active_items_count{
+  color: #696969;
+  font-size: 14px;
+}

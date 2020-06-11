@@ -1,0 +1,32 @@
+.todo_item{
+  border-bottom: 1px solid #c9cdd3;
+  width: 100%;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo_item_checkbox{
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: #bebebe;
+}
+
+.todo_item_content{
+  width: 80%;
+}
+
+.todo_item_btn{
+  width: 10%;
+  border: none;
+  color: red;
+  font-weight: 600;
+  background-color: white;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
